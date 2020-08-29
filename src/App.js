@@ -7,6 +7,7 @@ import CoursesPage from "./components/CoursesPage";
 
 // git test
 // git test2
+// git test3
 class App extends Component {
   state = {};
   render() {
