@@ -5,6 +5,7 @@ import NavigationBar from "./components/NavigationBar";
 import Counter from "./components/Counter";
 import CoursesPage from "./components/CoursesPage";
 
+// git test
 class App extends Component {
   state = {};
   render() {
