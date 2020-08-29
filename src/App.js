@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import CoursesPage from "./components/CoursesPage";
 
 // git test
+// git test2
 class App extends Component {
   state = {};
   render() {
