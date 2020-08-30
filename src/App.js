@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import AboutPage from "./components/AboutPage";
 import NavigationBar from "./components/NavigationBar";
-import Counter from "./components/Counter";
+import CounterPage from "./components/CounterPage";
 import CoursesPage from "./components/CoursesPage";
 
 // git test
@@ -27,7 +27,7 @@ class App extends Component {
     } else if (window.location.pathname.endsWith("/courses")) {
       return <CoursesPage />;
     } else {
-      return <Counter />;
+      return <CounterPage />;
     }
   }
 }
