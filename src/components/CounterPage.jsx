@@ -1,6 +1,7 @@
 // imrc in the shortcut
 import React, { Component } from "react";
 import CounterButton from "./CounterButton";
+import { Link } from "react-router-dom";
 
 // cc in the shortcut
 class Counter extends Component {
@@ -23,6 +24,9 @@ class Counter extends Component {
           onIncrement={this.handleIncrement}
           onDelete={this.handleDelete}
         />
+        <Link to="about" className="btn btn-secondary m-2">
+          About
+        </Link>
       </div>
     );
   }
