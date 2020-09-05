@@ -1,6 +1,10 @@
 import React from "react";
 
-function CounterButton(props) {
+// There are two options:
+// function component
+// function CounterButton(props) {
+// Arrow function component
+const CounterButton = (props) => {
   return (
     <>
       <span className="badge badge-success m-2">{props.counter.count}</span>
@@ -18,6 +22,6 @@ function CounterButton(props) {
       </button>
     </>
   );
-}
+};
 
 export default CounterButton;
